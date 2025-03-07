@@ -11,7 +11,7 @@
 
 enum logl { n = 0, d = 10, i = 20, w = 30, e = 40, c = 50 };
 
-static logl logl = w;
+static enum logl logl = w;
 
 static void cleanup_va_list(va_list * args) { va_end(*args); }
 
